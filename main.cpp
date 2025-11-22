@@ -1,11 +1,11 @@
 #include"Parent.h"
 
+
 int main() {
 	Parent *a = new Child();
 	delete a;
 
 	cout << endl;
-
 	Child b;
 	b.method1();
 
@@ -67,3 +67,5 @@ int main() {
 	
 
 }
+
+

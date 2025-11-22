@@ -124,8 +124,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="main4BaseDesc.cpp" />
+    <ClCompile Include="main4memory.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BaseDesc.h" />
     <ClInclude Include="Parent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
